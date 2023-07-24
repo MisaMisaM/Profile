@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400&display=swap');
+
+body {
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #EDE4FF;
+  text-shadow: 1px -1px #FFACAC;
+}
+
+.img-circle {
+  border-radius: 150px;
+}
+
+h1, h2, h3 {
+  color: #FFCACC;
+  font-size: 24px;
+  line-height:1.5;
+}
+
+a {
+  color: #FFCACC;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card {
+  background-color: #eff9f5;
+  padding: 40px;
+  margin: 20px 0px;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.list-inline {
+  List-style: none;
+  Padding-left: 0;
+  display: flex;
+  margin: 24px;
+  font-size: 24px;
+  justify-content: center;
+  padding: 0px 20px;
+  gap: 24px;
+  }
+
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
